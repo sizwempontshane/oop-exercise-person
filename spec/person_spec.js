@@ -26,7 +26,7 @@ describe("Person", function () {
     ]);
   });
 
-  it("should say hello", function () {
+  it("should display complete greeting", function () {
     expect(person.hello()).toEqual(
       "Hello, my name is Ryan and I am 30 years old. My interests are being a hardarse, agile and ssd hard drives."
     );
